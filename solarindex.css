@@ -1,0 +1,73 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    transition: 5s;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+}
+
+#p1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+}
+
+#p2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+}
+
+#BTN1 {
+    background-image: url("solarsys1.jpg");
+    background-size: cover;
+    width: 1330px;
+    height: 1330px;
+    margin-left: 10px;
+    border-radius: 25px;
+    transition: 3s;
+}
+
+#BTN1:hover{
+    background-image: url("solarsys.gif");
+    background-size: cover;
+    width: 1330px;
+    height: 1330px;
+    margin-left: 10px;
+    border-radius: 25px;
+    transition: 3s;
+}
+
+#BTN2 {
+    background-image: url("btna3.gif");
+    background-size: cover;
+    color: white;
+    background-origin: padding-box;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    margin-left: 600px;
+    border-radius: 25px;
+}
+
+#BTN2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(1px);
+    background-size: cover;
+    color: white;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    margin-left: 600px;
+    border-radius: 25px;
+}
